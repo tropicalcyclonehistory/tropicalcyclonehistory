@@ -2,134 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./globals.css" />
-    <link rel="stylesheet" href="./style.css" />
-
-    <style>
-      a,
-      button,
-      input,
-      select,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        appearance: none;
-        background: none;
-
-        -webkit-font-smoothing: antialiased;
-      }
-    </style>
-    <title>Document</title>
+    <title>Flight table</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="frame-36">
-      <div class="rectangle-152"></div>
-      <div class="rectangle-199"></div>
-      <div class="rectangle-153"></div>
-      <div class="rectangle-154"></div>
-      <div class="rectangle-191"></div>
-      <div class="rectangle-192"></div>
-      <div class="rectangle-193"></div>
-      <div class="rectangle-194"></div>
-      <div class="rectangle-195"></div>
-      <div class="rectangle-196"></div>
-      <div class="rectangle-197"></div>
-      <div class="rectangle-198"></div>
-      <div class="domestic-departures">
-        Domestic
-        <br />
-        Departures
+    <div class="main-container">
+      <div class="rectangle">
+        <div class="image"><div class="rectangle-1"></div></div>
+        <span class="date">date</span
+        ><span class="domestic-departures">Domestic<br />Departures</span
+        ><span class="time">time</span>
       </div>
-      <div class="rectangle-155"></div>
-      <img class="image-89" src="image-890.png" />
-      <div class="date">date</div>
-      <div class="time">time</div>
-      <div class="std">STD</div>
-      <div class="etd">ETD</div>
-      <div class="airlines">Airlines</div>
-      <div class="flight">Flight</div>
-      <div class="to-via">To/Via</div>
-      <div class="gate">Gate</div>
-      <div class="remarks">Remarks</div>
-      <div class="std2">STD</div>
-      <div class="etd2">ETD</div>
-      <div class="no">NO</div>
-      <div class="dest">DEST</div>
-      <div class="div">-</div>
-      <div class="delayed">Delayed</div>
-      <img class="airline-image" src="airline-image0.png" />
-      <div class="std3">STD</div>
-      <div class="etd3">ETD</div>
-      <div class="no2">NO</div>
-      <div class="dest2">DEST</div>
-      <div class="div2">-</div>
-      <div class="delayed2">Delayed</div>
-      <img class="airline-image2" src="airline-image1.png" />
-      <div class="std4">STD</div>
-      <div class="etd4">ETD</div>
-      <div class="no3">NO</div>
-      <div class="dest3">DEST</div>
-      <div class="div3">-</div>
-      <div class="delayed3">Delayed</div>
-      <img class="airline-image3" src="airline-image2.png" />
-      <div class="std5">STD</div>
-      <div class="etd5">ETD</div>
-      <div class="no4">NO</div>
-      <div class="dest4">DEST</div>
-      <div class="div4">-</div>
-      <div class="delayed4">Delayed</div>
-      <img class="airline-image4" src="airline-image3.png" />
-      <div class="std6">STD</div>
-      <div class="etd6">ETD</div>
-      <div class="no5">NO</div>
-      <div class="dest5">DEST</div>
-      <div class="div5">-</div>
-      <div class="delayed5">Delayed</div>
-      <img class="airline-image5" src="airline-image4.png" />
-      <div class="std7">STD</div>
-      <div class="etd7">ETD</div>
-      <div class="no6">NO</div>
-      <div class="dest6">DEST</div>
-      <div class="div6">-</div>
-      <div class="delayed6">Delayed</div>
-      <img class="airline-image6" src="airline-image5.png" />
-      <div class="std8">STD</div>
-      <div class="etd8">ETD</div>
-      <div class="no7">NO</div>
-      <div class="dest7">DEST</div>
-      <div class="div7">-</div>
-      <div class="delayed7">Delayed</div>
-      <img class="airline-image7" src="airline-image6.png" />
-      <div class="std9">STD</div>
-      <div class="etd9">ETD</div>
-      <div class="no8">NO</div>
-      <div class="dest8">DEST</div>
-      <div class="div8">-</div>
-      <div class="delayed8">Delayed</div>
-      <img class="airline-image8" src="airline-image7.png" />
-      <div class="std10">STD</div>
-      <div class="etd10">ETD</div>
-      <div class="no9">NO</div>
-      <div class="dest9">DEST</div>
-      <div class="div9">-</div>
-      <div class="delayed9">Delayed</div>
-      <img class="airline-image9" src="airline-image8.png" />
-      <div class="gate-closes-15-minutes-before-departure">
-        Gate closes 15 minutes before departure.
+      <div class="rectangle-2">
+        <span class="std">STD</span><span class="etd">ETD</span
+        ><span class="airlines">Airlines</span><span class="flight">Flight</span
+        ><span class="to-via">To/Via</span><span class="gate">Gate</span
+        ><span class="remarks">Remarks</span>
       </div>
-      <div class="_26-c-winds-variable-at-4-kph-few-broken-clouds-no-rain">
-        26°C | Winds: Variable at 4kph | Few Broken Clouds
-        <br />
-        No Rain
+      <div class="rectangle-3">
+        <span class="dest">DEST</span><span class="delayed">Delayed </span
+        ><span class="std-4">STD</span><span class="empty">-</span
+        ><span class="no">NO</span><span class="etd-5">ETD</span>
+        <div class="airline-image"></div>
+      </div>
+      <div class="rectangle-6">
+        <span class="dest-7">DEST</span><span class="delayed-8">Delayed </span
+        ><span class="std-9">STD</span><span class="text-14">-</span
+        ><span class="no-a">NO</span><span class="etd-b">ETD</span>
+        <div class="airline-image-c"></div>
+      </div>
+      <div class="rectangle-d">
+        <span class="dest-e">DEST</span><span class="delayed-f">Delayed </span
+        ><span class="std-10">STD</span><span class="text-1a">-</span
+        ><span class="no-11">NO</span><span class="etd-12">ETD</span>
+        <div class="airline-image-13"></div>
+      </div>
+      <div class="rectangle-14">
+        <span class="dest-15">DEST</span><span class="delayed-16">Delayed </span
+        ><span class="std-17">STD</span><span class="text-20">-</span
+        ><span class="no-18">NO</span><span class="etd-19">ETD</span>
+        <div class="airline-image-1a"></div>
+      </div>
+      <div class="rectangle-1b">
+        <span class="dest-1c">DEST</span><span class="delayed-1d">Delayed </span
+        ><span class="std-1e">STD</span><span class="text-26">-</span
+        ><span class="no-1f">NO</span><span class="etd-20">ETD</span>
+        <div class="airline-image-21"></div>
+      </div>
+      <div class="rectangle-22">
+        <span class="dest-23">DEST</span><span class="delayed-24">Delayed </span
+        ><span class="std-25">STD</span><span class="text-2c">-</span
+        ><span class="no-etd">NO</span><span class="etd-26">ETD</span>
+        <div class="airline-image-27"></div>
+      </div>
+      <div class="rectangle-28">
+        <span class="dest-29">DEST</span><span class="delayed-2a">Delayed </span
+        ><span class="std-2b">STD</span><span class="text-32">-</span
+        ><span class="no-etd-2c">NO</span><span class="etd-2d">ETD</span>
+        <div class="airline-image-2e"></div>
+      </div>
+      <div class="rectangle-2f">
+        <span class="dest-30">DEST</span><span class="delayed-31">Delayed </span
+        ><span class="std-32">STD</span><span class="text-38">-</span
+        ><span class="no-etd-33">NO</span><span class="etd-34">ETD</span>
+        <div class="airline-image-35"></div>
+      </div>
+      <div class="rectangle-36">
+        <span class="dest-37">DEST</span><span class="delayed-38">Delayed </span
+        ><span class="std-39">STD</span><span class="text-3e">-</span
+        ><span class="no-3a">NO</span><span class="etd-3b">ETD</span>
+        <div class="airline-image-3c"></div>
+      </div>
+      <div class="rectangle-3d">
+        <div class="celsius-winds-clouds-rain">
+          <span class="text-41">26</span
+          ><span class="celsius-winds">°C | Winds: </span
+          ><span class="text-43">Variable</span
+          ><span class="celsius-winds-3e"> at </span
+          ><span class="text-45">4</span
+          ><span class="celsius-winds-3f">kph | </span
+          ><span class="text-47">Few Broken </span
+          ><span class="celsius-winds-40">Clouds </span
+          ><span class="no-rain">No Rain</span>
+        </div>
+        <span class="gate-closes-minutes-before-departure"
+          >Gate closes 15 minutes before departure.</span
+        >
       </div>
     </div>
   </body>
