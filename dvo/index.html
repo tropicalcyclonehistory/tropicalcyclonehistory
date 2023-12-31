@@ -14,8 +14,8 @@
           <div class="domestic-departures">Domestic<br />Departures</div>
           <img class="img" src="img/rectangle-155.png" />
           <img class="image" src="img/image-89.png" />
-          <div class="text-wrapper">date</div>
-          <div class="text-wrapper-2">time</div>
+          <div class="text-wrapper" id="date"></div>
+          <div class="text-wrapper-2" id="time"></div>
           <div class="STD-ETD-airlines">
             STD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ETD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Airlines&nbsp;&nbsp;&nbsp;&nbsp;Flight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,5 +44,62 @@
         <img class="image-2" src="img/image-112.png" />
       </div>
     </div>
+
+      <script>
+    function updateDate() {
+      // Get the current date
+      const now = new Date();
+
+      // Adjust to UTC+8
+      now.setHours(now.getHours() + 8);
+
+      // Format the date
+      const options = { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        timeZone: 'Asia/Shanghai' 
+      };
+
+      const formattedDate = now.toLocaleDateString('en-US', options);
+
+      // Display the formatted date
+      document.getElementById('date').textContent = formattedDate;
+    }
+
+    // Update the date every day (86400000 milliseconds = 24 hours)
+    setInterval(updateDate, 86400000);
+
+    // Initial update
+    updateDate();
+
+            function updateTime() {
+      // Get the current time in UTC
+      const now = new Date();
+
+      // Adjust to UTC+8
+      now.setUTCHours(now.getUTCHours() + 8);
+
+      // Format the time
+      const options = { 
+        hour: 'numeric', 
+        minute: 'numeric', 
+        second: 'numeric', 
+        timeZone: 'UTC' 
+      };
+
+      const formattedTime = now.toLocaleTimeString('en-US', options);
+
+      // Display the formatted time
+      document.getElementById('time').textContent = formattedTime;
+    }
+
+    // Update the time every second
+    setInterval(updateTime, 1000);
+
+    // Initial update
+    updateTime();
+  </script>
   </body>
 </html>
