@@ -1,0 +1,262 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  height: 1368px;
+  overflow: hidden;
+  position: relative;
+  width: 2433px;
+}
+
+.frame .overlap-group {
+  height: 322px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2433px;
+}
+
+.frame .rectangle {
+  background-color: #00bdc8;
+  height: 219px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2433px;
+}
+
+.frame .rectangle-2 {
+  background-color: #00949d;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 218px;
+  width: 2433px;
+}
+
+.frame .domestic-departures {
+  color: #ffffff;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-size: 95px;
+  font-weight: 700;
+  left: 230px;
+  letter-spacing: 0;
+  line-height: 87.6px;
+  position: absolute;
+  top: 16px;
+  width: 1062px;
+}
+
+.frame .img {
+  height: 186px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 195px;
+}
+
+.frame .image {
+  height: 197px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 195px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-size: 85px;
+  font-weight: 700;
+  left: 1151px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 9px;
+  width: 1265px;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-size: 75px;
+  font-weight: 700;
+  left: 2204px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 113px;
+  width: 196px;
+}
+
+.frame .STD-ETD-airlines {
+  color: #ffffff;
+  font-family: "Fira Sans-Medium", Helvetica;
+  font-size: 70px;
+  font-weight: 500;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 232px;
+  width: 2405px;
+}
+
+.frame .overlap {
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 1048px;
+  width: 2433px;
+}
+
+.frame .rectangle-3 {
+  background-color: #007077;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 200px;
+  width: 2433px;
+}
+
+.frame .rectangle-4 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2433px;
+}
+
+.frame .rectangle-5 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 102px;
+  width: 2433px;
+}
+
+.frame .p {
+  color: #ffffff;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-size: 45px;
+  font-weight: 600;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 228px;
+  width: 1082px;
+}
+
+.frame .element-c-winds-variable {
+  color: #ffffff;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 1128px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: right;
+  top: 213px;
+  width: 1296px;
+}
+
+.frame .span {
+  line-height: 45.9px;
+}
+
+.frame .rectangle-6 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 322px;
+  width: 2433px;
+}
+
+.frame .rectangle-7 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 426px;
+  width: 2433px;
+}
+
+.frame .overlap-2 {
+  height: 206px;
+  left: 0;
+  position: absolute;
+  top: 530px;
+  width: 2433px;
+}
+
+.frame .rectangle-8 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 736px;
+  width: 2433px;
+}
+
+.frame .rectangle-9 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 840px;
+  width: 2433px;
+}
+
+.frame .rectangle-10 {
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #888888;
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 944px;
+  width: 2433px;
+}
+
+.frame .EX-REC {
+  background-color: #ffe300;
+  height: 96px;
+  left: 470px;
+  position: absolute;
+  top: 1390px;
+  width: 291px;
+}
+
+.frame .image-2 {
+  height: 104px;
+  left: -7237px;
+  position: absolute;
+  top: -1063px;
+  width: 220px;
+}
